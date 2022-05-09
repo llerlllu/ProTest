@@ -1,0 +1,8 @@
+@import "./_normalize";
+body::-webkit-scrollbar {
+  width: 6px;
+}
+body::-webkit-scrollbar-thumb {
+  background-color: #bdbcbc;
+  border-radius: 20px;
+}

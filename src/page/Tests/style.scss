@@ -1,0 +1,56 @@
+.tests {
+  padding-top: 15px;
+  padding-bottom: 30px;
+  &__body {
+    width: 1320px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    gap: 10px;
+  }
+  .nav {
+    width: 350px;
+  }
+  .content {
+    width: 100%;
+    overflow: auto;
+    &::-webkit-scrollbar {
+      width: 6px;
+    }
+    &::-webkit-scrollbar-thumb {
+      background-color: #bdbcbc;
+      border-radius: 20px;
+    }
+    &__title {
+      color: #282828;
+      font-weight: 700;
+      font-size: 28px;
+      line-height: 40px;
+      padding-bottom: 20px;
+    }
+    .item {
+      padding-top: 40px;
+      width: 100%;
+      &__title {
+        width: 100%;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 26px;
+        color: #282828;
+        margin-top: 12px;
+        margin-bottom: 12px;
+      }
+      &__button {
+        display: flex;
+        justify-content: center;
+        padding-top: 20px;
+        width: 100%;
+      }
+      &__checkbox {
+        display: grid;
+        gap: 10px;
+        grid-template-columns: 510px 510px;
+      }
+    }
+  }
+}
