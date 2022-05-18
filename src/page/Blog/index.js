@@ -5,6 +5,8 @@ import image5 from "../../img/image5.png";
 import image6 from "../../img/image6.png";
 import image7 from "../../img/image7.png";
 import image8 from "../../img/image8.png";
+import image9 from "../../img/image9.png";
+import image10 from "../../img/image10.png";
 
 import "./style.scss";
 
@@ -46,7 +48,7 @@ const array = [
     ],
   },
   {
-    img: image7,
+    img: image9,
     title: "На что еще обратить внимание",
     arr: [
       "Если у вас спросили, что такое тестирование, то не говорите, что это поиск ошибок. Это только часть тестирования. Главное проверить соответствие продукта запросу клиента.",
@@ -54,7 +56,7 @@ const array = [
     ],
   },
   {
-    img: image7,
+    img: image10,
     title: "Небольшие советы",
     arr: [
       "Знание английского обязательно, с этим легче войти в IT",
